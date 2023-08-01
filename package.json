@@ -2,7 +2,7 @@
   "name": "recipe-page-master",
   "version": "1.0.0",
   "description": "solucion al reto de devchallenges",
-  "main": "src /index.html",
+  "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
