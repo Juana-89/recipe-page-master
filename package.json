@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Juana-89/recipe-page-master/issues"
   },
-  "homepage": "https://github.com/Juana-89/recipe-page-master#readme"
+  "homepage": "https://github.com/Juana-89/recipe-page-master#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
