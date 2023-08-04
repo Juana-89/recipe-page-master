@@ -15,3 +15,23 @@ p{
 article {
   @apply font-sans;
 }
+
+.list-decimal {
+  list-style-type: none;
+  counter-reset: list-decimal;
+}
+
+
+.list-decimal li::before {
+  content: counter(list-decimal);
+  counter-increment: list-decimal;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #F2994A;
+  color: white;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}
