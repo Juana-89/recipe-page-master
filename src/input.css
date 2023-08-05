@@ -21,7 +21,6 @@ article {
   counter-reset: list-decimal;
 }
 
-
 .list-decimal li::before {
   content: counter(list-decimal);
   counter-increment: list-decimal;
@@ -37,4 +36,8 @@ article {
   font-weight: bold;
   font-family: font-display;
   font-size: 24px;
+}
+
+.material-symbols-outlined {
+  font-size: 50px !important;
 }
