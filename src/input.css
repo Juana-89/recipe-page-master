@@ -39,5 +39,9 @@ article {
 }
 
 .material-symbols-outlined {
-  font-size: 50px !important;
+  font-size: 40px !important;
+}
+
+.ml-auto {
+  margin-left: 8rem !important;
 }
