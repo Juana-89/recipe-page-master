@@ -534,6 +534,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.order-first {
+  order: -9999;
+}
+
+.order-last {
+  order: 9999;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -796,12 +804,40 @@ hr.dotted {
 }
 
 @media (min-width: 640px) {
+  .sm\:order-first {
+    order: -9999;
+  }
+
+  .sm\:order-last {
+    order: 9999;
+  }
+
   .sm\:m-12 {
     margin: 3rem;
   }
 
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:ml-auto {
+    margin-left: auto;
+  }
+
+  .sm\:h-1\/3 {
+    height: 33.333333%;
+  }
+
   .sm\:w-7\/12 {
     width: 58.333333%;
+  }
+
+  .sm\:w-1\/4 {
+    width: 25%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 
   .sm\:text-4xl {
