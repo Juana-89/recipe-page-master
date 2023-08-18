@@ -50,10 +50,17 @@ hr.dotted {
   border-top: 3px dotted #bbb;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
 .aside {
   order:1;
+  flex-direction: column; 
+
 }
+.first-element {
+  order: -1; /* Pone este elemento en la parte superior */
+  flex-wrap: nowrap;
+}
+
 .article {
   order:2;
 }
