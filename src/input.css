@@ -49,3 +49,12 @@ article {
 hr.dotted {
   border-top: 3px dotted #bbb;
 }
+
+@media screen and (max-width:750px){
+.aside {
+  order:1;
+}
+.article {
+  order:2;
+}
+}
