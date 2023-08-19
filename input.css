@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  @apply text-5xl font-bold font-display;
+}
+h2{
+  @apply text-2xl font-bold font-display;
+}
+
+p{
+  @apply font-sans;
+}
+article {
+  @apply font-sans;
+}
+
+.list-decimal {
+  list-style-type: none;
+  counter-reset: list-decimal;
+}
+
+.list-decimal li::before {
+  content: counter(list-decimal);
+  counter-increment: list-decimal;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #F2994A;
+  color: white;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-family: font-display;
+  font-size: 24px;
+}
+
+.material-symbols-outlined {
+  font-size: 30px !important;
+}
+
+.ml-auto {
+  margin-left: 8rem !important;
+}
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+@media screen and (max-width:780px){
+.aside {
+  order:1;
+}
+.element {
+  align-items: inherit;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+.article {
+  order:2;
+}
+}
