@@ -53,14 +53,14 @@ hr.dotted {
 @media screen and (max-width:780px){
 .aside {
   order:1;
-  flex-direction: column; 
-
 }
-.first-element {
-  order: -1; /* Pone este elemento en la parte superior */
-  flex-wrap: nowrap;
+.element {
+  align-items: inherit;
 }
-
+.div {
+  display: flex;
+  justify-content: space-between;
+}
 .article {
   order:2;
 }
