@@ -656,6 +656,10 @@ video {
   font-weight: 700;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .italic {
   font-style: italic;
 }
@@ -673,6 +677,11 @@ video {
 .text-orange-400 {
   --tw-text-opacity: 1;
   color: rgb(251 146 60 / var(--tw-text-opacity));
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -734,13 +743,16 @@ hr.dotted {
 @media screen and (max-width:780px){
   .aside {
     order:1;
-    flex-direction: column;
   }
 
-  .first-element {
-    order: -1;
-    /* Pone este elemento en la parte superior */
-    flex-wrap: nowrap;
+  .first-element{
+    display: flex;
+    align-items: center;
+  }
+
+  .div {
+    display: flex;
+    justify-content: space-between;
   }
 
   .article {
